@@ -75,7 +75,7 @@ class TableInput extends Component {
               <Container>
                 <Card bg="success" text="white">
                   <Card.Header style={{ textAlign: "center" }}>
-                    <h4> TAXAS VISA E MASTER NOVAS </h4>
+                    <h4> DIGITE AS TAXAS </h4>
                   </Card.Header>
 
                   <Card.Body
