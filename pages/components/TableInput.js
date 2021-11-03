@@ -111,6 +111,7 @@ class TableInput extends Component {
                             </center>
                           </td>
                         </tr>
+
                         <tr>
                           <td>
                             <h6>Débito </h6>{" "}
@@ -120,7 +121,7 @@ class TableInput extends Component {
                               mask="09.99"
                               id="debVisa"
                               className="form-control"
-                              placeholder="00.00"
+                              placeholder="09.99"
                               onChange={this.get_debVisa}
                             ></InputMask>
                           </td>
@@ -129,7 +130,7 @@ class TableInput extends Component {
                               mask="09.99"
                               id="debElo"
                               className="form-control"
-                              placeholder="00.00"
+                              placeholder="09.99"
                               onChange={this.get_debElo}
                             ></InputMask>
                           </td>
@@ -144,7 +145,7 @@ class TableInput extends Component {
                               mask="09.99"
                               id="credVisa"
                               className="form-control"
-                              placeholder="00.00"
+                              placeholder="09.99"
                               onChange={this.get_credVisa}
                             ></InputMask>
                           </td>
@@ -153,7 +154,7 @@ class TableInput extends Component {
                               mask="09.99"
                               id="credElo"
                               className="form-control"
-                              placeholder="00.00"
+                              placeholder="09.99"
                               onChange={this.get_credElo}
                             ></InputMask>
                           </td>
@@ -167,7 +168,7 @@ class TableInput extends Component {
                               mask="09.99"
                               id="credVisa"
                               className="form-control"
-                              placeholder="00.00"
+                              placeholder="09.99"
                               onChange={this.get_c2a6visa}
                             ></InputMask>
                           </td>
@@ -176,7 +177,7 @@ class TableInput extends Component {
                               mask="09.99"
                               id="credElo"
                               className="form-control"
-                              placeholder="00.00"
+                              placeholder="09.99"
                               onChange={this.get_c2a6elo}
                             ></InputMask>
                           </td>
@@ -190,7 +191,7 @@ class TableInput extends Component {
                               mask="09.99"
                               id="credVisa"
                               className="form-control"
-                              placeholder="00.00"
+                              placeholder="09.99"
                               onChange={this.get_c7a12visa}
                             ></InputMask>
                           </td>
@@ -199,7 +200,7 @@ class TableInput extends Component {
                               mask="09.99"
                               id="credElo"
                               className="form-control"
-                              placeholder="00.00"
+                              placeholder="09.99"
                               onChange={this.get_c7a12elo}
                             ></InputMask>
                           </td>
@@ -212,7 +213,7 @@ class TableInput extends Component {
                             <InputMask
                               mask="09.99"
                               className="form-control"
-                              placeholder="00.00"
+                              placeholder="09.99"
                               onChange={this.get_antecipa}
                             ></InputMask>
                           </td>
