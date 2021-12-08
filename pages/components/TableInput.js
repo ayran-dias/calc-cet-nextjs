@@ -18,6 +18,10 @@ class TableInput extends Component {
       c2a6visa: [0],
       c7a12visa: [0],
       antecipa: [0],
+      debElo:[0],
+      credElo: [0],
+      c2a6elo: [0],
+      c7a12elo: [0]
     };
   }
 
