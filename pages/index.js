@@ -10,30 +10,22 @@ import { useState } from "react";
 import { useEffect } from "react";
 import React, { Component } from "react";
 import TableInput from "./components/TableInput";
+import Cabecalho from "./components/cabecalho";
 
 export default function Home() {
   return (
     <div>
-      <Card
-        bg="success"
-        text="white"
-        style={{
-          width: "100%",
-          alignItems: "center",
-        }}
-      >
-        <br />
-        <h2> Calculadora CET - Brasil Profundo</h2>
-        <br />
-      </Card>
-      <Head>
+
+
+
+      <br />
+<Cabecalho
+></Cabecalho>
+<Head>
         <title>Calculadora CET</title>
         <meta name="description" content="For use workers" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-
-      <br />
-
       <TableInput></TableInput>
       <br />
       <Card
