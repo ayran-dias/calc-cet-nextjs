@@ -1,0 +1,85 @@
+  const taxas_destino = [
+    { value: "cliente", label: "Cliente assume as taxas" },
+    { value: "eu", label: "Eu assumo as taxas" },
+  ];
+
+  const bandeiras = [
+    { value: "mastercard", label: "Mastercard" },
+    { value: "visa", label: "Visa" },
+    { value: "elo", label: "Elo" },
+    { value: "american", label: "American Express" },
+    { value: "hiper", label: "Hiper" },
+  ];
+
+  const mensalidades = [
+    {
+      value: 1,
+      label: "Crédito a vista",
+    },
+    {
+      value: 2,
+      label: "Crédito 2x",
+    },
+    {
+      value: 3,
+      label: "Crédito 3x",
+    },
+    {
+      value: 4,
+      label: "Crédito 4x",
+    },
+    {
+      value: 5,
+      label: "Crédito 5x",
+    },
+    {
+      value: 6,
+      label: "Crédito 6x",
+    },
+    {
+      value: 7,
+      label: "Crédito 7x",
+    },
+    {
+      value: 8,
+      label: "Crédito 8x",
+    },
+    {
+      value: 9,
+      label: "Crédito 9x",
+    },
+    {
+      value: 10,
+      label: "Crédito 10x",
+    },
+    {
+      value: 11,
+      label: "Crédito 11x",
+    },
+    {
+      value: 12,
+      label: "Crédito 12x",
+    },
+  ];
+
+
+
+  
+  handleChange = (price) => (event) => {
+    setState({ [price]: event.target.value });
+  };
+
+  handleChange = (modalidade) => (event) => {
+    this.setState({ [modalidade]: event.target.value });
+  };
+
+  handleChange = (Bandeira) => (event) => {
+    this.setState({ [Bandeira]: event.target.value });
+  };
+
+  handleChange = (Taxa) => (event) => {
+    this.setState({ [Taxa]: event.target.value });
+  };
+  handleChange = (Recebimento) => (event) => {
+    this.setState({ [Recebimento]: event.target.value });
+  };
