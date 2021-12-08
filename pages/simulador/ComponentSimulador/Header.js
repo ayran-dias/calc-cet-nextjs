@@ -3,7 +3,7 @@ import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import SignalWifi2BarIcon from '@mui/icons-material/SignalWifi2Bar';
 import BatteryCharging90Icon from '@mui/icons-material/BatteryCharging90';
 
-export const Header = () => {
+const Header = () => {
   var hora    =   new Date().getHours();
   var minutos =   new Date().getMinutes();
 
@@ -28,3 +28,5 @@ export const Header = () => {
         </div>
     )
 }
+
+export default Header;
