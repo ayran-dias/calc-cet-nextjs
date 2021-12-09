@@ -30,12 +30,12 @@
   }, 
   
   "resolutions" : {
-    "@mui/icons-material": "5.1.1",
-"@mui/material": "5.1.1",
-"@mui/utils": "5.1.1",
-"@mui/private-theming": "5.1.1",
-"@mui/styled-engine": "5.1.1",
-"@mui/system": "5.1.1"
+    "@mui/icons-material": "5.2.0",
+"@mui/material": "5.2.0",
+"@mui/utils": "5.2.0",
+"@mui/private-theming": "5.2.0",
+"@mui/styled-engine": "5.2.0",
+"@mui/system": "5.2.0"
   }
   
 
