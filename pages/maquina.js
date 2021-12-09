@@ -8,7 +8,7 @@ import Footer from "./simulador/ComponentSimulador/Footer";
 import Bandeiras from "./simulador/ComponentSimulador/Bandeiras";
 import Modalidade from "./simulador/ComponentSimulador/Modalidade";
 import Taxas from "./simulador/ComponentSimulador/Taxas";
-import { Header } from "./simulador/ComponentSimulador/Header";
+import Header  from "./simulador/ComponentSimulador/Header";
 import  Preco  from "./simulador/ComponentSimulador/Preco";
 
 import {

@@ -27,5 +27,19 @@
   "devDependencies": {
     "eslint": "7",
     "eslint-config-next": "12.0.1"
+  }, 
+  
+  "resolutions" : {
+    "@mui/icons-material": "5.2.0",
+"@mui/material": "5.2.0",
+"@mui/utils": "5.2.0",
+"@mui/private-theming": "5.2.0",
+"@mui/styled-engine": "5.2.0",
+"@mui/system": "5.2.0"
   }
+  
+
+
+
+
 }
